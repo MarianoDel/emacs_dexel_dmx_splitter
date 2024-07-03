@@ -134,7 +134,7 @@ int main(void)
 
             if (!timer_dmx_led)
             {
-                timer_dmx_led = 250;
+                timer_dmx_led = 100;
 
                 if (Led_Dmx_Is_On())
                     Led_Dmx_Off ();
